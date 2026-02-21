@@ -1,6 +1,6 @@
 use utoipa_axum::{router::OpenApiRouter, routes};
 use utoipa_swagger_ui::SwaggerUi;
-
+pub mod garmin_oauth;
 #[tokio::main]
 async fn main() {
     // build our application with a route

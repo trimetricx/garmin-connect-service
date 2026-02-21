@@ -10,5 +10,8 @@ tokio = { version = "1.0", features = ["full"] }
 utoipa-axum = "0.2"
 utoipa = "5"
 utoipa-swagger-ui = { version = "9", features = ["axum"] }
+diesel = { version = "2.3.6", features = ["postgres"]}
+r2d2 = "0.8.10"
+r2d2-diesel = "1.0.0"
 
 
